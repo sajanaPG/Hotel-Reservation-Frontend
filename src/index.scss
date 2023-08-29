@@ -1,5 +1,6 @@
 $primary: #876A20; 
 $secondary: #B7975B;
+$tertiary: #F1E3D4;
 
 $btn-border-radius: 10px;
 
@@ -21,4 +22,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar{
+  background-color: #F1E3D4;
+
+}
+
+.nav-link {
+  color: $primary;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-logo{
+  font-family: 'Outfit', sans-serif;
+  font-weight: bolder;
+  line-height: 0.7;
+  padding-top: 10px;
+}
+
+.nav-logo-top{
+  font-size: 1.5rem;
+  color: $primary;
+}
+
+.nav-logo-bottom{
+  font-size: 1rem;
+  color: $secondary;
 }

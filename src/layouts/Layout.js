@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
+import NavigationBar from '../components/NavigationBar';
 
 const Layout = () => {
     return (
         <div>
-            <div className="navbar">
-                Navigation Bar
+            <div>
+                <NavigationBar/>
             </div>
 
             <Container className="py-4">
