@@ -1,6 +1,13 @@
-$primary: #876A20; 
+$primary: #876A20;
 $secondary: #B7975B;
 
 $btn-border-radius: 10px;
+
+.cardImage {
+    width: 320px;
+    height: 210px;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+}
 
 @import '~bootstrap/scss/bootstrap';
