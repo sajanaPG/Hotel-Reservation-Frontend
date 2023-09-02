@@ -2,12 +2,18 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './layouts/Layout';
+import FoodCart from './pages/FoodCart';
+import RoomCheckout from './pages/RoomCheckout';
+
 
 function App() {
   return (
+    
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout/>}>
+          <Route path='/checkout' element={<RoomCheckout/>}></Route>
+          <Route path='/foodcart' element={<FoodCart/>}></Route>
 
         </Route>
       </Routes>

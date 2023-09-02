@@ -1,6 +1,45 @@
 $primary: #876A20; 
 $secondary: #B7975B;
 
+
 $btn-border-radius: 10px;
+
+
+.room-sub-header{
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    color: $primary;
+}
+.food-sub-header{
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    color: $primary;
+}
+
+.room-main-header{
+    font-family: 'Italiana', serif;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 10px;
+}
+
+.hr-line {
+    border-top: 3px solid $primary;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.room-details{
+    font-family: 'DM Sans', sans-serif ;
+    text-align: justify;
+    color: #6a6969
+}
+.p{
+    font-family: 'DM Sans', sans-serif ; 
+}
+
+.total-amount{
+    font-family: 'DM Sans', sans-serif;
+}
 
 @import '~bootstrap/scss/bootstrap';
