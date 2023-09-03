@@ -1,6 +1,5 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.scss';
 import Layout from './layouts/Layout';
 import Rooms from './pages/Rooms';
 import Success from './components/Success'
