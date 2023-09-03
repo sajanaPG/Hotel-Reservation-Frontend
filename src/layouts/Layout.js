@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import NavigationBar from "../components/NavigationBar";
-import LandingPage from "../pages/LandingPage";
 
 const Layout = () => {
   return (
@@ -10,7 +9,6 @@ const Layout = () => {
         <NavigationBar />
       </div>
 
-      <LandingPage />
       <Container className="py-4">
         <Outlet />
       </Container>

@@ -121,7 +121,7 @@ const Rooms = ({setBookingData}) => {
 
     return (
         <>
-            <h2 className="text-center">Rooms</h2>
+            <h1 className="luxury-font text-center">Rooms</h1>
 
             <Container>
                 <Row className="justify-content-md-center mt-5">

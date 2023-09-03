@@ -16,7 +16,7 @@ function NavigationBar() {
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="#home">Dining</Nav.Link>
-            <Nav.Link href="#features">Rooms</Nav.Link>
+            <Nav.Link href="/rooms">Rooms</Nav.Link>
             <Nav.Link href="#pricing">Login</Nav.Link>
             <div className="d-flex align-items-center">
               <Button variant="primary">Signup</Button>
