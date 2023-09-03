@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { DateRange } from 'react-date-range'
 
-import {Form, FloatingLabel } from "react-bootstrap";
+import { Form, FloatingLabel } from "react-bootstrap";
 
 import format from 'date-fns/format'
 import { addDays } from 'date-fns'
@@ -9,7 +9,7 @@ import { addDays } from 'date-fns'
 import 'react-date-range/dist/styles.css'
 import 'react-date-range/dist/theme/default.css'
 
-const DateRangeComp = ({updateSelectedDateRange}) => {
+const DateRangeComp = ({ updateSelectedDateRange }) => {
 
     // date state
     const [range, setRange] = useState([
@@ -47,11 +47,11 @@ const DateRangeComp = ({updateSelectedDateRange}) => {
     }
 
     // Handle date range
-    const handleDateRange = (item) => {
+      const handleDateRange = (item) => {
         setRange([item.selection]);
         updateSelectedDateRange([item.selection]);
-    }
-
+    }  
+ 
     return (
         <div className="calendarWrap">
 
